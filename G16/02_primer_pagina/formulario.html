@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Ejemplos de inputs en html</h1>
+    <form action="">
+        <p>Nombre</p><br>
+        <input type="text" name="Nombre"><br>
+        <p>Apellido</p><br>
+        <input type="text" name="Apellido"><br>
+        <p>password</p><br>
+        <input type="password" name="Contraseña"><br>
+        <input type="submit" value="Enviar"><br>
+        <input type="reset">
+    </form>
+
+    <form action="">
+        <input type="radio" name="hombre" value="hombre" checked>Hombre <br>
+        <input type="radio" name="mujer" value="mujer" checked>Mujer <br>
+        <input type="checkbox" name="pera" value="fruta">Tengo una pera <br>
+        <input type="button" onclick="alert('Hola mundo')" value="Hola"> <br>
+        <p>Mi Cumpleaños(seleccion de fecha)</p> 
+        <input type="date" name="Cumpleaños"> <br>
+    </form>
+
+    <form class="Formulario">
+        <p>Lista desplegable</p>
+        <select name="lista" id="">
+            <option>Leche</option>
+            <option>Papel</option>
+            <option>Arroz</option>
+            <option selected>Verduras</option>
+            <option>Jabon</option>
+        </select>
+    </form>
+
+    <form action="">
+        <p>Cuadro de texto para escribir</p>
+        <textarea name="poema" id="poema" cols="30" rows="20" readonly wrap="soft">
+            Introduzca un poema
+        </textarea> <br> <br>
+
+        <input type="color" name="color" id=""> <br> <br>
+        <input type="range"> <br><br>
+        <input type="datetime-local" name="" id=""> <br><br>
+    </form>
+
+    <form action="">
+        <p>Insertar un mapa desde google maps generator</p>
+        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&height=400&hl=en&q=Bah%C3%ADa%20de%20Acapulco%203015%20Tlaquepaque+(La%20casa)&t=&z=16&ie=UTF8&iwloc=B&output=embed">
+    </form>
+</body>
+</html>
