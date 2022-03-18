@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@200&family=Ramaraja&display=swap');
+
+.mitienda{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Ramaraja', serif;
+}
+body{
+    text-align: center;
+    background-color: coral;
+}
+.contacto{
+    text-align: center;
+}
+footer{
+    background-color: brown;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: block;
+    width: 60px;
+}

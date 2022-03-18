@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@200&family=Ramaraja&display=swap');
+
+body{
+    background-color: rgb(78, 156, 78);
+}
+header{
+    background-color: blanchedalmond;
+}
+.blanco{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+section{
+    background-color: #fff;
+    border: purple 10px solid;
+}
+section .colores{
+    border: red solid 8px;
+    border-top-color: aqua;
+    border-right-color: cadetblue;
+    border-bottom-color: chartreuse;
+}
+p{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Ramaraja', serif;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
