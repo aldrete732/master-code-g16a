@@ -1,0 +1,28 @@
+body{
+    height: 300px;
+    background-image: url(..);
+    margin: 0;
+    padding: 0;
+}
+.principal, header{
+    width: 100px;
+    background-color: #4fc3f7;
+}
+#piePagina{
+    background-color: #ff9800;
+    width: 20%;
+    height: 100px;
+}
+.principal{
+    background-color: #d4e157;
+}
+
+.principal, #piePagina, header{
+    border: 1px #000000 solid;
+    margin: 10px 5px 15px 20px;
+    padding: 20px 5px 10px 15px;
+}
+h1, p{
+    margin: 10px;
+    padding: 10px;
+}
