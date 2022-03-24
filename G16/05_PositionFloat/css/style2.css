@@ -24,17 +24,24 @@ body{
 }
 .aside-container{
     background-color: #a5d6a7;
+    display: flex;
     float: left;
+    flex-direction: column;
     height: 80vh;
     width: 15%;
 }
 .aside-container > a{
     color: black;
     border: 1px black solid;
-    display: block;
-    margin: 5px;
     text-align: center;
     text-decoration: none;
+    line-height: 50px;
+    margin: 3px;
+}
+aside a:hover{
+    background-color: #80deea;
+    color: white;
+    border-radius: 10px;
 }
 .main-container{
     background-color: #c6ff00;
