@@ -1,0 +1,8 @@
+body{
+    background-color: crimson;
+}
+@media only screen and (max-width: 700px){
+    body{
+        background-color: beige;
+    }
+}
