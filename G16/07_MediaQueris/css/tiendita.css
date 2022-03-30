@@ -138,7 +138,7 @@ html{
 .menu-icon{
     display: none;
 }
-
+/* Aquí comienza la parte de adaptacion a la medida de pantalla, se declara que apartir de los 700px se toma el siguiente formato */
 @media (max-width:700px){
     .menu-icon{
         display: block;
