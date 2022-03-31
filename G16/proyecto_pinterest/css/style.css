@@ -52,4 +52,8 @@ a{
 .galeria{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+.galeria a{
+    
 }
