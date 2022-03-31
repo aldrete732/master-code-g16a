@@ -72,15 +72,21 @@ header .contenedor_noti{
 }
 .contenedor_noti{
     width: 20vh;
+}
+.galeria{
+    column-count: 4;
+    column-gap: 15px;
     
 }
-main .galeria{
-    display: grid;
-    grid-auto-rows: 200px;
-    gap: 1rem;
-    grid-auto-flow: row dense;
+.imagenes{
+    display: inline-block;
+    width: 99%;
 }
-.galeria img{
-    
-    border-radius: 20px;
+.imagenes img{
+    display: block;
+    width: 99%;
+    border-radius: 15%;
+}
+.imagenes:hover{
+    opacity: 50%;
 }
