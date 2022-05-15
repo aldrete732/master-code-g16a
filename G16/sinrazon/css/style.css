@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    display: flex;
+    align-content: center;
+}
+section.imagen{
+    border-radius: 20%
+}
